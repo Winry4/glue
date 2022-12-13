@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.88">
+
+        <RelativeLayout
+            android:id="@+id/emparejar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView28"
+            android:layout_alignParentRight="true"
+            android:background="@color/azul_claro">
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageView45"
+                android:layout_centerInParent="false"
+                android:layout_marginRight="34dp"
+                android:src="@drawable/cambiar_corazon" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="false"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/cambiar_corazon" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView45"
+                android:layout_alignRight="@+id/imageView45"
+                android:layout_below="@+id/imageView45"
+                android:text="@string/Amigo1"
+                android:textColor="@color/beis" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView31"
+                android:layout_alignRight="@+id/imageView31"
+                android:layout_below="@+id/imageView31"
+                android:text="@string/Amigo2"
+                android:textColor="@color/beis" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@color/black_overlay"
+                android:text="@string/emparejar"
+                android:textColor="@color/beis"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView28"
+            android:layout_centerHorizontal="true"
+            android:text="@string/EmparejaA"
+            android:layout_below="@id/emparejar"
+            android:textColor="@color/com_facebook_blue"
+            android:layout_marginTop="15dp"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView30"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tortolitos"
+            android:textColor="@color/com_facebook_blue"/>
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView46"
+            android:layout_centerHorizontal="true"
+            android:text="@string/seleccionaG" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="322dp">
+
+        <GridView
+            android:id="@+id/Amigos"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srinternet.glue.NotificacionesActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#14394E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/img_btn_atras_misCompras"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/boton_volver_menu"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/toolbar2"
+        android:layout_centerHorizontal="true"
+        android:background="#FCF7E0"
+        android:id="@+id/relativeLayout4">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sombra_menu_b"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/toolbar2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/Compras"
+        android:textColor="#14394E"
+        android:textSize="22sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout12"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true">
+
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+
+            <RelativeLayout
+                android:id="@+id/relative69"
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true">
+
+                <RelativeLayout
+                    android:id="@+id/titulo_c1"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:background="#46AAA6"
+                    android:layout_alignRight="@+id/Creditos10"
+                    android:layout_alignEnd="@+id/Creditos10"
+                    android:layout_alignLeft="@+id/Creditos10"
+                    android:layout_alignStart="@+id/Creditos10">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/Necesitas"
+                        android:textColor="#ffffffff"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Creditos50"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_alignStart="@+id/Creditos20"
+                    android:layout_below="@+id/Creditos20"
+                    android:layout_marginTop="11dp"
+                    android:background="#F1EEE0"
+                    android:layout_alignLeft="@+id/Creditos20">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/cincuenta"
+                        android:textColor="#14394E"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="#46AAA6"
+                        android:textSize="20sp"
+                        tools:text="4,49€"
+                        android:layout_marginRight="28dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView38"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        app:srcCompat="@drawable/diana"
+                        android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Creditos20"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/Creditos10"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#F1EEE0">
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/veinte"
+                        android:textColor="#14394E"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="28dp"
+                        android:textColor="#46AAA6"
+                        android:textSize="20sp"
+                        tools:text="2,29€" />
+
+                    <ImageView
+                        android:id="@+id/imageView42"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        app:srcCompat="@drawable/diana" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Creditos10"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_alignLeft="@+id/Creditos20"
+                    android:layout_below="@+id/titulo_c1"
+                    android:layout_marginTop="13dp"
+                    android:background="#F1EEE0">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/diez"
+                        android:textColor="#14394E"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/textView38"
+                        android:layout_marginRight="28dp"
+                        android:textColor="#46AAA6"
+                        android:textSize="20sp"
+                        tools:text="1,09€" />
+
+                    <ImageView
+                        android:id="@+id/imageView41"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        app:srcCompat="@drawable/diana" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Creditos100"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#F1EEE0"
+                    android:layout_below="@+id/Creditos50"
+                    android:layout_alignLeft="@+id/titulo_c2"
+                    android:layout_alignStart="@+id/titulo_c2">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/cien"
+                        android:textColor="#14394E"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="28dp"
+                        android:textColor="#46AAA6"
+                        android:textSize="20sp"
+                        tools:text="7,99€" />
+
+                    <ImageView
+                        android:id="@+id/imageView39"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        app:srcCompat="@drawable/diana" />
+
+                </RelativeLayout>
+
+
+                <!-- TODO: Update blank fragment layout -->
+
+                <RelativeLayout
+                    android:id="@+id/titulo_c2"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_alignRight="@+id/Semana1"
+                    android:layout_alignLeft="@+id/Semana1"
+                    android:layout_below="@+id/Creditos100"
+                    android:layout_marginTop="11dp"
+                    android:background="#46AAA6">
+
+                    <TextView
+                        android:id="@+id/tx_tituloc2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/premium"
+                        android:textColor="#ffffffff"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Meses6"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_alignLeft="@+id/Mes1"
+                    android:layout_below="@+id/Mes1"
+                    android:layout_marginTop="11dp"
+                    android:background="#F1EEE0">
+
+                    <TextView
+                        android:id="@+id/tx_6Meses"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/seis"
+                        android:textColor="#14394E"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tx_250"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="11dp"
+                        android:layout_toRightOf="@+id/tx_6Meses"
+                        android:textColor="#46AAA6"
+                        android:textSize="30sp"
+                        tools:text="250" />
+
+                    <ImageView
+                        android:id="@+id/img_6Meses"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        app:srcCompat="@drawable/diana" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Mes1"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/Semana1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#F1EEE0">
+
+                    <TextView
+                        android:id="@+id/tx_1Mes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/un"
+                        android:textColor="#14394E"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tx_50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="18dp"
+                        android:textColor="#46AAA6"
+                        android:textSize="30sp"
+                        tools:text="50" />
+
+                    <ImageView
+                        android:id="@+id/img_1Mes"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        app:srcCompat="@drawable/diana" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Semana1"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_alignLeft="@+id/Mes1"
+                    android:layout_below="@+id/titulo_c2"
+                    android:layout_marginTop="12dp"
+                    android:background="#F1EEE0">
+
+                    <TextView
+                        android:id="@+id/tx_1Semana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/una"
+                        android:textColor="#14394E"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tx_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="19dp"
+                        android:textColor="#46AAA6"
+                        android:textSize="30sp"
+                        tools:text="20" />
+
+                    <ImageView
+                        android:id="@+id/img_1Semana"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        app:srcCompat="@drawable/diana" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Anio1"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_alignLeft="@+id/Meses6"
+                    android:layout_below="@+id/Meses6"
+                    android:layout_marginTop="12dp"
+                    android:background="#F1EEE0">
+
+                    <TextView
+                        android:id="@+id/tx_1Anio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/uno"
+                        android:textColor="#14394E"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tx_400"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/tx_1Anio"
+                        android:layout_marginRight="12dp"
+                        android:textColor="#46AAA6"
+                        android:textSize="30sp"
+                        tools:text="400" />
+
+                    <ImageView
+                        android:id="@+id/img_1Anio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        app:srcCompat="@drawable/diana" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:background="#FCF7E0"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/icono_flechazos"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/coins"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/imageView24"
+            android:layout_marginRight="59dp" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tienes"
+            android:textColor="#14394E"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/imageView29"
+            android:layout_toLeftOf="@+id/imageView29"
+            android:layout_marginRight="17dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imageView29"
+            android:layout_alignLeft="@+id/imageView29"
+            android:layout_centerVertical="true"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Coins"
+            android:textColor="#14394E"
+            android:textSize="18sp"
+            android:layout_marginLeft="16dp"
+            android:layout_alignBaseline="@+id/textView27"
+            android:layout_alignBottom="@+id/textView27"
+            android:layout_toRightOf="@+id/imageView24" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sombra_menu_b"
+        android:layout_marginTop="99dp"
+        android:layout_alignTop="@+id/relativeLayout3"
+        android:layout_alignRight="@+id/relativeLayout3"
+        android:layout_alignLeft="@+id/relativeLayout3" />
+
+</RelativeLayout>
+
+
+
+
+

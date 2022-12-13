@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srinternet.glue.NotifiPantalla">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="232dp"
+        android:layout_height="209dp"
+        app:srcCompat="@drawable/boton_corazon"
+        android:layout_marginTop="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tarde"
+        android:layout_alignBottom="@+id/tarde"
+        android:layout_alignRight="@+id/imageView27"
+        android:text="Chat" />
+
+    <Button
+        android:id="@+id/tarde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tarde"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/imageView27"
+        android:layout_alignLeft="@+id/imageView27" />
+
+    <Button
+        android:id="@+id/hecho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/chat"
+        android:layout_alignLeft="@+id/tarde"
+        android:layout_below="@+id/chat"
+        android:layout_marginTop="12dp"
+        android:text="@string/hecho" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/boton_mas"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/texto_no"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/texto_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:gravity="center"
+        android:maxWidth="200dp" />
+
+</RelativeLayout>

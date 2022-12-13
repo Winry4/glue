@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Glue</string>
+    <string name="facebook_app_id">1802102530036950</string>
+    <string name="desc">image</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_pantalla__de__inicio">Pantalla_De_InicioActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabbed">tabbedActivity</string>
+    <string name="terminos"><u>Terminos y Condiciones</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_primera_config">PrimeraConfigActivity</string>
+    <string name="title_activity_princial">PrincialActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_programa__principal">Programa_Principal</string>
+    <string name="title_activity_prgrama_princial">Prgrama_princial</string>
+    <string name="title_activity_programa_principal">Programa_principal</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="Sonido">Sonido</string>
+    <string name="Ajustes">Ajustes</string>
+    <string name="Vibracion">Vibración</string>
+    <string name="notifi">*Si no recibes notificaciones, activalas en :Ajustes / Notificaciones</string>
+    <string name="Carpetas">Selecciona una de tus fotos de Facebook para añadirla</string>
+    <string name="Bases">Bases Legales</string>
+    <string name="Compras">Compras</string>
+    <string name="Tienes">Tienes</string>
+    <string name="Coins">Coins</string>
+    <string name="Necesitas">¿Necesitas más Coins?</string>
+    <string name="diez">10 coins</string>
+    <string name="veinte">20 coins</string>
+    <string name="cincuenta">50 coins</string>
+    <string name="cien">100 coins</string>
+    <string name="premium">¿Quieres ser Premium?</string>
+    <string name="seis">6 Meses Premium</string>
+    <string name="un">1 Mes Premium</string>
+    <string name="una">1 semana Premium</string>
+    <string name="uno">1 año Premium</string>
+    <string name="emparejar">¿Quieres emparejar a tus amigos</string>
+    <string name="ello">A por ello</string>
+    <string name="ups">Ups, mejor no</string>
+    <string name="y">y</string>
+    <string name="tarde">Más tarde</string>
+    <string name="hecho">Eso esta hecho</string>
+    <string name="aceptarP">ACEPTAR PETICION</string>
+    <string name="aceptarPor">¿Aceptar por </string>
+    <string name="aceptarP2"> Coins?. Si la otra persona no acepta, se devolverán los coins</string>
+    <string name="Preguntas">Preguntas Frecuentes</string>
+    <string name="Perfil">Perfil</string>
+    <string name="MisCompras">Mis compras</string>
+    <string name="UsuariosO">Usuarios Ocultos</string>
+    <string name="Tutorial">Tutorial</string>
+    <string name="Compartir">Compartir aplicación</string>
+    <string name="Cerrar">Cerrar Sesión</string>
+    <string name="Cargando">Cargando...</string>
+    <string name="Amigo1">Amigo 1</string>
+    <string name="Amigo2">Amigo 2</string>
+    <string name="Emparejar">Emparejar</string>
+    <string name="EmparejaA">Empareja a tus amigos</string>
+    <string name="tortolitos">Elige a los dos tortolitos y envia un mensaje</string>
+    <string name="seleccionaG">Selecciona al primero de tus amigos que usa Glue</string>
+    <string name="conectar">Conectar con Facebook</string>
+    <string name="login">Haciendo login, aceptas nuestros</string>
+    <string name="Bienvenido">Bienvenido a Glue</string>
+    <string name="Registrate">Registrate y gracias a la ayuda de uno de tus amigos encontraras a la persona que buscas</string>
+    <string name="Buscas">¿Buscas alguien especial?</string>
+    <string name="ElijeS">Elige Single</string>
+    <string name="Ayudar">¿Quieres ayudar?</string>
+    <string name="ElijeG">Elige Gluer, si quieres que tu amigo encuentre a su alma gemela</string>
+    <string name="publica">No publicamos nada en Facebook</string>
+    <string name="Hombres">Hombres</string>
+    <string name="Mujeres">Mujeres</string>
+    <string name="Eres">¿Qué eres?</string>
+    <string name="Gluer">Gluer</string>
+    <string name="Single">Single</string>
+    <string name="info">Info Facebook</string>
+    <string name="Ciudad">Ciudad</string>
+    <string name="Edad">Edad</string>
+    <string name="Nombre">Nombre</string>
+    <string name="modificar">*Para modificar los datos lo tendras que hacer a traves de Facebook</string>
+    <string name="EdadB">¿Qué edad buscas?</string>
+    <string name="QueBuscas">¿Qué buscas?</string>
+    <string name="Borrar">Borrar mi cuenta</string>
+    <string name="Comenzamos">Comenzamos</string>
+    <string name="Foto">Fotos</string>
+    <string name="Fav">Favorito</string>
+    <string name="Ocultar">Ocultar</string>
+    <string name="ErrorEmpareja">No puedes acceder siendo Gluer</string>
+    <string name="QuieresAmigo">¿Quieres que tu amigo</string>
+    <string name="presente">te presente a</string>
+    <string name="errorconexion">"NO HAY CONEXION A INTERNET"</string>
+    <string name="errorservidor">ERROR DEL SERVIDOR</string>
+    <string name="error2">No se ha podido conectar con el servidor, intentalo más tarde</string>
+    <string name="cache">Vaciar Cache</string>
+
+
+    <string name="aceptar">Aceptar</string>
+    <string name="CerrarSesion">Cerrar Sesión</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="Notificaciones">Notificaciones</string>
+    <string name="Ocultos">Ocultos</string>
+    <string name="Chat_S">Chat Singles</string>
+    <string name="Chat_G">Chat Gluers</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="config">CONFIG</string>
+    <string name="chat">CHAT</string>
+    <string name="amigos">Amigos</string>
+    <string name="fotos">Fotos</string>
+    <string name="guardar">Guardar</string>
+    <string name="atras">ATRAS</string>
+    <string name="perfil">Perfil</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="idioma">Cambiar Idioma</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="str_en">English</string>
+    <string name="str_es">Spanish</string>
+    <string name="str_pt">Portuguese</string>
+    <string-array name="languages">
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+        <item>@string/str_pt</item>
+    </string-array>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_chat_individual">ChatIndividual</string>
+    <string name="title_activity_fotos_principal">FotosPrincipal</string>
+</resources>

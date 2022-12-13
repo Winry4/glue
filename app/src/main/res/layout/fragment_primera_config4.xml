@@ -1,0 +1,125 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srinternet.glue.PrimeraConfig4Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_b" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_b" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="15dp"
+        android:layout_x="195dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_b" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_a" />
+
+    <AbsoluteLayout
+        android:layout_width="297dp"
+        android:layout_height="160dp"
+        android:layout_x="44dp"
+        android:layout_y="180dp"
+        android:background="#F1EEE5">
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
+            android:layout_x="93dp"
+            android:layout_y="20dp"
+            app:srcCompat="@drawable/buscas" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="114dp"
+            android:text="@string/EdadB"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+            android:textColor="#14394E"
+            android:textSize="24sp" />
+
+    </AbsoluteLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="437dp"
+        android:background="#46AAA6"
+        android:text="@string/Comenzamos" />
+
+    <RelativeLayout
+        android:layout_width="297dp"
+        android:layout_height="58dp"
+        android:layout_x="47dp"
+        android:layout_y="357dp"
+        android:background="#F1EEE5">
+        <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+            android:id="@+id/rangeSeekbar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/text_margin"
+            app:corner_radius="10"
+            app:min_value="18"
+            app:max_value="99"
+            app:gap="1"
+            app:bar_color="#8990C4"
+            app:bar_highlight_color="#2434AD"
+            app:left_thumb_color="#1A246D"
+            app:right_thumb_color="#1A246D"
+            app:left_thumb_color_pressed="#030B47"
+            app:right_thumb_color_pressed="#030B47"
+            app:data_type="_integer"/>
+
+        <TextView
+            android:id="@+id/minValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="18" />
+
+        <TextView
+            android:id="@+id/maxValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/minValue"
+            android:text="99" />
+    </RelativeLayout>
+
+</AbsoluteLayout>

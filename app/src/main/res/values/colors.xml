@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="beis">#F1EEE5</color>
+    <color name="azul_claro">#46aaa6</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorBackgroundPrimary">#808eaff4</color>
+    <color name="colorBackgroundTrash">#FF3e578c</color>
+    <color name="button_normal">#929392</color>
+    <color name="button_pressed">#c0c1c0</color>
+    <color name="dialog_divider">@android:color/black</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_beis">#FCF7E0</color>
+
+
+</resources>

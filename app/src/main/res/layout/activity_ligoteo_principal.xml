@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_beis"
+    tools:context="srinternet.glue.NotifiPantalla">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="332dp"
+        android:layout_height="309dp"
+        app:srcCompat="@drawable/boton_corazon"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_ligoteo_si"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView27"
+        android:layout_alignLeft="@+id/imageView27"
+        android:layout_below="@+id/imageView27"
+        android:layout_marginTop="12dp"
+        android:background="@color/azul_claro"
+        android:text="@string/ello"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/btn_ligoteo_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btn_ligoteo_si"
+        android:layout_alignLeft="@+id/btn_ligoteo_si"
+        android:layout_below="@+id/btn_ligoteo_si"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorBackgroundTrash"
+        android:text="@string/ups"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/boton_mas"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/textView52"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView27"
+        android:layout_alignRight="@+id/imageView27" />
+
+</RelativeLayout>
+

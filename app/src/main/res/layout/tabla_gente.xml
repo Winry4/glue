@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+    <RelativeLayout
+    android:id="@+id/relative"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/eliminar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/guardar2"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/celda_borrar"
+            android:visibility="invisible" />
+
+        <ImageView
+        android:id="@+id/guardar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/celda_guardar"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/relativeF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/primeroL"
+
+        >
+
+        <ImageView
+            android:id="@+id/foto_lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/boton_mas" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/primeroL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="110dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/linea_celda_vista_b" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/primeroL"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/nombre_Edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false"
+            android:text="Nombre, edad" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/segundoL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/relativeLayout7"
+        android:layout_below="@+id/relativeLayout7">
+
+        <TextView
+            android:id="@+id/Pais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentTop="false"
+            android:text="Ciudad, Pais"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tercerL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/segundoL">
+
+        <TextView
+            android:id="@+id/amigos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_toRightOf="@+id/persona"
+            android:text="Amigos" />
+
+        <TextView
+            android:id="@+id/fotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/foto"
+            android:text="Fotos" />
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="false"
+            android:layout_toRightOf="@+id/amigos"
+            android:src="@drawable/boton_fotos" />
+
+        <ImageView
+            android:id="@+id/persona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:src="@drawable/boton_amigos" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="110dp"
+            android:layout_alignBottom="@+id/persona"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/linea_celda_vista_b" />
+
+    </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sombra_celda"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tercerL"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@color/azul_claro" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

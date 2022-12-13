@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    tools:context="srinternet.glue.Programa_Principal">
+
+    <FrameLayout
+        android:id="@+id/frame_foto"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="#ffffffff"
+        android:layout_below="@+id/tx_localizacion"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/img_foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/foto_perfil" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tx_amigos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#14394E"
+        android:layout_alignLeft="@+id/imageView40"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/frame_foto"
+        />
+
+    <TextView
+        android:id="@+id/tx_fotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#14394E"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/frame_foto"
+        android:layout_alignRight="@+id/imageView40" />
+
+    <TextView
+        android:id="@+id/tx_localizacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tx_maria_pepita"
+        android:layout_marginTop="14dp"
+        android:textAlignment="center"
+        android:textColor="#14394E" />
+
+    <TextView
+        android:id="@+id/tx_maria_pepita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textColor="#14394E" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tx_amigos"
+        android:layout_alignLeft="@+id/frame_foto"
+        android:layout_alignRight="@+id/frame_foto"
+        app:srcCompat="@drawable/sombra_celda" />
+
+</RelativeLayout>

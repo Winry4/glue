@@ -1,0 +1,98 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/config1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context="srinternet.glue.PrimeraConfig1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_b" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="195dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_b" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_a" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_b" />
+
+    <Button
+        android:id="@+id/btn_cupido"
+        android:layout_width="297dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="115dp"
+        android:layout_x="44dp"
+        android:layout_y="450dp"
+        android:background="#F1EEE5"
+        android:text="@string/Gluer"
+        android:textColor="#14394E" />
+
+    <AbsoluteLayout
+        android:layout_width="297dp"
+        android:layout_height="160dp"
+        android:layout_x="44dp"
+        android:layout_y="180dp"
+        android:background="#F1EEE5">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
+            android:layout_alignParentTop="true"
+            android:layout_x="93dp"
+            android:layout_y="20dp"
+            app:srcCompat="@drawable/corazon" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="-1dp"
+            android:layout_y="114dp"
+            android:text="@string/Eres"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+            android:textColor="#14394E"
+            android:textSize="24sp" />
+    </AbsoluteLayout>
+
+    <Button
+        android:id="@+id/btn_enam"
+        android:layout_width="297dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:layout_x="44dp"
+        android:layout_y="360dp"
+        android:background="#F1EEE5"
+        android:text="@string/Single"
+        android:textAlignment="center"
+        android:textColor="#14394E" />
+
+</AbsoluteLayout>

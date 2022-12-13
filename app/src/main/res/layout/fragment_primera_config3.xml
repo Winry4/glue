@@ -1,0 +1,79 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srinternet.glue.PrimeraConfig3Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_b" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_b" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="195dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_a" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dp"
+        android:layout_y="10dp"
+        app:srcCompat="@drawable/punto_b" />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_x="57dp"
+        android:layout_y="500dp"
+        android:background="#F1EEE5"
+        android:text="@string/cancelar" />
+
+    <Button
+        android:id="@+id/btn_cortar"
+        android:layout_width="273dp"
+        android:layout_height="35dp"
+        android:layout_x="56dp"
+        android:layout_y="455dp"
+        android:background="#F1EEE5"
+        android:text="Cortar" />
+
+    <ImageView
+        android:id="@+id/button2"
+        android:layout_width="273dp"
+        android:layout_height="365dp"
+        android:layout_x="56dp"
+        android:layout_y="73dp"
+        android:background="#535353"
+        android:text="Recorta la foto para que te vean mejor"
+        android:textAlignment="center"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/btn_hecho"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_x="197dp"
+        android:layout_y="500dp"
+        android:background="#F1EEE5"
+        android:text="Hecho" />
+</AbsoluteLayout>

@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF7E0"
+    tools:context="srinternet.glue.Persona1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="297dp"
+        android:layout_height="253dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_x="47dp"
+        android:layout_y="167dp"
+        android:background="#ffffffff">
+
+    </FrameLayout>
+
+</RelativeLayout>

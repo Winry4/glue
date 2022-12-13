@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sombra_menu_b"
+        android:layout_marginTop="99dp"
+        android:layout_alignTop="@+id/relativeLayout1"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_alignRight="@+id/relativeLayout1" />
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="17dp"
+        android:background="#FCF7E0"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/vacaciones1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="18dp"
+            android:maxWidth="130dp"
+            android:textColor="#14394E" />
+
+        <TextView
+            android:id="@+id/vacaciones3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vacaciones1"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/button_pressed" />
+
+        <TextView
+            android:id="@+id/revision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/button_pressed" />
+
+    </RelativeLayout>
+</RelativeLayout>

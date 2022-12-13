@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srinternet.glue.Inicio2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1E3474"
+        android:text="@string/conectar"
+        android:textColor="#ffffffff"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:alpha="0.4"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginTop="64dp"
+        android:layout_alignRight="@+id/button3"
+        android:id="@+id/relativeLayout8">
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            app:srcCompat="@drawable/punto_a" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/imageView51"
+            android:padding="5dp"
+            app:srcCompat="@drawable/punto_b" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView51"
+            android:padding="5dp"
+            app:srcCompat="@drawable/punto_b" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="41dp"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/login"
+            android:textAlignment="center"
+            android:textColor="@color/beis"
+            />
+        <TextView
+            android:id="@+id/textView165"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/terminos"
+            android:onClick="terminos"
+            android:textColor="@color/beis"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/Buscas"
+        android:textSize="25sp"
+        android:textColor="@color/com_facebook_blue"/>
+    <TextView
+        android:id="@+id/textView999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/ElijeS"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/com_facebook_blue"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/textView4" />
+
+</RelativeLayout>

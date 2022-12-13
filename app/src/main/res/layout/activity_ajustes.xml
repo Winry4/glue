@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srinternet.glue.NotificacionesActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#14394E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/img_btn_atras_ajustes"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/boton_volver_menu"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/toolbar2"
+        android:layout_centerHorizontal="true"
+        android:background="#FCF7E0"
+        android:id="@+id/relativeLayout4">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sombra_menu_b"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/toolbar2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/Ajustes"
+        android:textColor="#14394E"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tx_ajustes_sonido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView46"
+        android:text="@string/Sonido"
+        android:textColor="#14394E"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView36"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:theme="@style/SwitchTheme"
+        tools:checked="false"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/linea_menu"
+        android:layout_below="@+id/tx_ajustes_sonido"
+        android:layout_marginTop="13dp"
+        android:layout_alignEnd="@+id/switch1"
+        android:layout_alignLeft="@+id/tx_ajustes_sonido"
+        android:layout_alignRight="@+id/switch1" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/Vibracion"
+        android:textColor="#14394E"
+        android:textSize="18sp"
+        android:layout_below="@+id/imageView36"
+        android:layout_alignLeft="@+id/imageView36"
+        android:layout_marginLeft="29dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView43"
+        android:layout_alignLeft="@+id/switch1"
+        android:theme="@style/SwitchTheme"
+        android:textColorLink="#46AAA6" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/linea_menu"
+        android:layout_below="@+id/textView43"
+        android:layout_alignLeft="@+id/imageView36"
+        android:layout_marginTop="16dp"
+        android:layout_alignRight="@+id/switch2" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="@string/notificaciones"
+        android:textColor="#14394E"
+        android:textSize="18sp"
+        android:layout_below="@+id/imageView37"
+        android:layout_alignLeft="@+id/imageView37"
+        android:layout_marginLeft="29dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView44"
+        android:layout_alignLeft="@+id/switch2"
+        android:theme="@style/SwitchTheme"
+        android:textColorLink="#46AAA6" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView44"
+        android:layout_below="@+id/textView44"
+        android:text="@string/notifi"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView36"
+        android:layout_below="@+id/textView45"
+        app:srcCompat="@drawable/linea_menu"
+        android:layout_alignRight="@+id/switch3" />
+
+</RelativeLayout>

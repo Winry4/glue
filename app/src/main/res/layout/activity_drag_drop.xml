@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/screenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="srinternet.glue.Perfil">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        >
+
+        <GridView
+            android:id="@+id/gridImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="160dp"
+            android:gravity="center"
+            android:horizontalSpacing="5dp"
+            android:longClickable="true"
+            android:numColumns="2"
+            android:scrollbars="none" />
+    </FrameLayout>
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#14394E"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <ImageView
+            android:id="@+id/img_btn_atras"
+            android:layout_width="57dp"
+            android:layout_height="52dp"
+            app:srcCompat="@drawable/boton_volver_menu" />
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#14394E"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <TextView
+            android:id="@+id/guardar"
+            android:layout_width="147dp"
+            android:layout_height="23dp"
+            android:layout_alignRight="@+id/appbar"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:onClick="guardar"
+            android:text="Guardar orden"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background="#FCF7E0"
+            android:id="@+id/rel">
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/foto_perfil" />
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</RelativeLayout>
